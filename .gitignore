@@ -1,0 +1,22 @@
+# Données locales
+data/
+*.parquet
+
+# Mots de passe et configurations sensibles
+.env
+.env.*
+connecteur*.json
+*.pem
+*.key
+
+# Environnement Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Fichiers système et IDE
+.idea/
+.vscode/
+.DS_Store
+docker-compose.yml
